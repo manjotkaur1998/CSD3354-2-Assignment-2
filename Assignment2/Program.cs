@@ -3,6 +3,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+//student name: manjot kaur
+//CSD3354 section 2
+//assignment 2
+//march 8,2019
+
+  
 
 namespace Assignment2
 {
@@ -14,7 +20,7 @@ namespace Assignment2
             delegateExercises.Method2();
         }
     }
-    ublic class DelegateExercises
+    public class DelegateExercises
     {
         public delegate void MyDelegate();
         void Method1()
@@ -25,7 +31,7 @@ namespace Assignment2
         public void Method2()
         {
             MyDelegate myDelegate = new MyDelegate(Method1);
-            myDelegate();
+            myDelegate(50);
         }
 
     }

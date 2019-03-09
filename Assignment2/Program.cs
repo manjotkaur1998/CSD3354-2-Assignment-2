@@ -27,7 +27,10 @@ namespace Assignment2
         public delegate int MyDelegate();
 
         void Method1()
-        {
+        {//mmmm
+            //lllll
+
+
             System.Console.WriteLine("MyDelegate");
         }
 
